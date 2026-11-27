@@ -1,0 +1,150 @@
+/* Deep Emerald Forest & Crisp White Admin Theme for Streamlit */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Main workspace background */
+.stApp {
+    background-color: #F7FAF9;
+    color: #0F172A;
+}
+
+/* Deep Emerald Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #062C24;
+    border-right: 1px solid #0C4438;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #ECFDF5 !important;
+}
+
+section[data-testid="stSidebar"] .stRadio > div {
+    gap: 0.35rem;
+}
+
+section[data-testid="stSidebar"] label[data-baseweb="radio"] {
+    padding: 0.55rem 0.75rem;
+    border-radius: 8px;
+    transition: background-color 0.15s ease;
+}
+
+section[data-testid="stSidebar"] label[data-baseweb="radio"]:hover {
+    background-color: #0A3B30;
+}
+
+/* Brand block in sidebar */
+.sidebar-brand {
+    padding: 0.25rem 0 1.25rem 0;
+    border-bottom: 1px solid #0C4438;
+    margin-bottom: 1.25rem;
+}
+
+.sidebar-brand-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #FFFFFF !important;
+    letter-spacing: -0.02em;
+    margin: 0;
+}
+
+.sidebar-brand-sub {
+    font-size: 0.8rem;
+    color: #A7F3D0 !important;
+    margin-top: 0.2rem;
+}
+
+/* Page header */
+.page-header {
+    margin-bottom: 1.5rem;
+}
+
+.page-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #062C24;
+    letter-spacing: -0.02em;
+    margin: 0;
+}
+
+.page-subtitle {
+    font-size: 0.92rem;
+    color: #475569;
+    margin-top: 0.25rem;
+}
+
+/* Dashboard KPI Cards */
+.kpi-card {
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 1.25rem 1.35rem;
+    box-shadow: 0 1px 3px rgba(6, 44, 36, 0.05);
+}
+
+.kpi-label {
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: #64748B;
+    margin-bottom: 0.45rem;
+}
+
+.kpi-value {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.85rem;
+    font-weight: 600;
+    color: #062C24;
+    line-height: 1.15;
+}
+
+.kpi-meta {
+    font-size: 0.78rem;
+    color: #475569;
+    margin-top: 0.45rem;
+}
+
+/* Form & Table Containers */
+.surface-card {
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(6, 44, 36, 0.05);
+    margin-bottom: 1.25rem;
+}
+
+/* Primary Buttons */
+.stButton > button[kind="primary"],
+.stDownloadButton > button {
+    background-color: #0D6B58 !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    padding: 0.5rem 1.15rem !important;
+    transition: background-color 0.15s ease !important;
+}
+
+.stButton > button[kind="primary"]:hover,
+.stDownloadButton > button:hover {
+    background-color: #0A5344 !important;
+}
+
+/* Inputs & Selectboxes */
+div[data-baseweb="input"] > div,
+div[data-baseweb="select"] > div {
+    border-radius: 8px !important;
+    border-color: #CBD5E1 !important;
+    background-color: #FFFFFF !important;
+}
+
+/* Clean Dataframe styling */
+div[data-testid="stDataFrame"] {
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}

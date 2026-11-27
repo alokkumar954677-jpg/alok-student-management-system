@@ -1,0 +1,8 @@
+{
+  "name": "Student Management System",
+  "description": "Persistent SQLite-backed Student Management Admin Dashboard with Dark Navy Blue and White UI, CRUD workflows, search, CSV export, and Python/Streamlit deployment deliverables.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
